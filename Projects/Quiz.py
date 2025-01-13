@@ -2,7 +2,7 @@ Skiing_points = 0
 Snowbording_points = 0
 
 
-answer = input("When playing non snow sports do you like A), sports that focus on upper body strength, or B) sports that are more intense on lower body? ")
+answer = input("When playing non snow sports do you like A), sports that focus on upper body strength, or B) lower body? ")
 if answer == "B":
     Skiing_points += 1
 elif answer == "A":
@@ -30,11 +30,11 @@ elif answer == "B":
     Skiing_points += 1
 
 
-answer = input("Would you rather A) have verry uncomferable boots, or B) have more comfertable boots? ")
+answer = input("Would you rather A) have verry uncomfortable boots, or B) have more comfortable boots? ")
 if answer == "A":
-    Snowbording_points += 1
-elif answer == "B":
     Skiing_points += 1
+elif answer == "B":
+    Snowbording_points += 1
 
 
 # end of quiz:
